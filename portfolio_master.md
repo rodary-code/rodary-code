@@ -25,7 +25,7 @@ Demonstrar experiência prática como analista de dados em múltiplos contextos 
 
 | Projeto | Repositório | Contexto de negócio | Stack principal | Status |
 |---|---|---|---|---|
-| Ecommerce | [portfolio-ecommerce](https://github.com/rodary-code/portfolio-ecommerce) | Varejo online (vendas, logística, satisfação do cliente) | Python, ML, BI Dashboard | Em estruturação |
+| Ecommerce | [portfolio-ecommerce](https://github.com/rodary-code/portfolio-ecommerce) | Varejo online (vendas, logística, satisfação do cliente) | Python, ML, BI Dashboard | EDA inicial concluída |
 
 ## Roadmap / próximos projetos (ideias, não confirmados)
 
@@ -38,3 +38,4 @@ Demonstrar experiência prática como analista de dados em múltiplos contextos 
 
 - **2026-07-08**: Definida estrutura de 1 repositório por projeto (em vez de monorepo), para dar destaque individual a cada projeto no GitHub.
 - **2026-07-08**: Primeiro projeto definido como `portfolio-ecommerce`, usando o dataset público Olist Brazilian E-Commerce (relacional, ~100k pedidos, 2016-2018), com foco em Python (tratamento/análise), Machine Learning e Dashboard de BI.
+- **2026-07-08**: EDA inicial do projeto ecommerce concluída. Achado-chave: atraso na entrega derruba a nota média de satisfação de 4,29 para 2,27 — forte candidato a alvo de modelagem preditiva na próxima etapa.
