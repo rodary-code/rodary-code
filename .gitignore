@@ -1,0 +1,6 @@
+.claude/
+.DS_Store
+Thumbs.db
+
+# Cada projeto é seu próprio repositório git independente
+portfolio-*/
