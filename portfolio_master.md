@@ -12,12 +12,16 @@ Demonstrar experiência prática como analista de dados em múltiplos contextos 
 - Conta GitHub: `rodary-code`.
 - Repositório de perfil `rodary-code/rodary-code` funciona como landing page (README renderizado automaticamente no perfil), listando e linkando todos os projetos.
 - Cada projeto local vive em `C:\Users\Rodri\Documents\VS Claude Code - Portfolio\portfolio-<nome>\` e é seu próprio repositório git, independente.
+- **`shared-skills/`** — Pasta centralizada no repositório raiz com funções e templates reutilizáveis entre projetos:
+  - `python/` — Módulos Python (limpeza de dados, visualizações, feature engineering).
+  - `sql/` — Templates de queries SQL reutilizáveis.
+  - `templates/` — Notebook template e checklists de análise.
 - Cada projeto tem:
   - `portfolio_project_<nome>.md` — contexto interno (objetivo de negócio, dataset, decisões, metodologia, estado atual). Não é o README público.
   - `README.md` — apresentação pública do projeto (o que um recrutador/gestor vê no GitHub).
   - `data/raw` e `data/processed` — dados brutos e tratados (grandes volumes vão para `.gitignore`, mantendo apenas amostras ou instruções de download).
   - `notebooks/` — exploração e análise em Jupyter.
-  - `src/` — scripts reutilizáveis (ETL, features, modelos).
+  - `src/` — scripts específicos do projeto.
   - `dashboard/` — artefatos de BI (Power BI/Tableau/Streamlit).
   - `reports/figures/` — gráficos e exports usados no README/relatório final.
 
@@ -39,3 +43,4 @@ Demonstrar experiência prática como analista de dados em múltiplos contextos 
 - **2026-07-08**: Definida estrutura de 1 repositório por projeto (em vez de monorepo), para dar destaque individual a cada projeto no GitHub.
 - **2026-07-08**: Primeiro projeto definido como `portfolio-ecommerce`, usando o dataset público Olist Brazilian E-Commerce (relacional, ~100k pedidos, 2016-2018), com foco em Python (tratamento/análise), Machine Learning e Dashboard de BI.
 - **2026-07-08**: EDA inicial do projeto ecommerce concluída. Achado-chave: atraso na entrega derruba a nota média de satisfação de 4,29 para 2,27 — forte candidato a alvo de modelagem preditiva na próxima etapa.
+- **2026-09-14**: Criada estrutura `shared-skills/` centralizada no repositório raiz, com funções reutilizáveis de Python (limpeza, visualização, ML), templates SQL e notebooks. Projetos importam estas funções para evitar duplicação de código.
